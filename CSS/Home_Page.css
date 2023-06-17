@@ -1,0 +1,26 @@
+
+body{
+    background-color: rgb(210, 210, 220);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: arial;
+}
+
+.content{
+    text-align: center;
+    clear: both;
+}
+.content button{
+    padding: 13px 20px;
+    border-radius: 15px;
+    font-size: x-large;
+    background-color: rgb(136, 136, 223);  
+    margin-top: 130px;
+    font-family: arial;
+    box-shadow: 5px 5px 5px;
+}
+.content button:hover{
+    background-color: darkblue;
+    color: white;
+}

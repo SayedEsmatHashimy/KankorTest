@@ -1,0 +1,17 @@
+.menu_bar{
+    background-color: darkblue;
+    float: right;
+    width: 100%;
+}
+.menu_bar a{
+    color: white;
+    padding: 18px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+}
+.menu_bar a:hover{
+    background-color: rgb(136, 136, 223);
+    color: white;
+    border-radius: 10px;
+}

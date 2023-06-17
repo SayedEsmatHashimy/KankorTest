@@ -1,0 +1,124 @@
+
+          /* title of Question part CSS */
+
+          .Title{
+            margin: 0% 40%;
+            font-size: x-large;
+            text-align: center;
+            padding: 5px;
+            font-weight: bold;
+        }
+        .Title-Time{
+            background-color: rgb(33, 230, 33);
+        }
+        .Time{
+            font-size: x-large;
+            padding: 0 10px;
+            text-align: center; 
+        }
+        .conter-down{
+            padding-top: 20px;
+            font-weight: bold;
+            color: yellow;
+            font-size: 1.2em;
+            }
+    
+    /* =========================================== */
+                /* Question part CSS */
+    
+        #top1{
+            width: 48%;
+            height: fit-content;
+            /* overflow: scroll; */
+            float: right;
+            border-left: black 15px double;
+        }
+        .Q-number{
+            display: inline-block;
+            /* direction: rtl; */
+            margin-left: 40px;
+        }
+        .number1{
+            padding-left: 5px;
+            float: right;   
+            margin-top: 17px;
+            font-size: xx-large;
+            text-shadow: 1px 3px 3px grey;
+        }
+        .Grid-Container{
+            display: grid;
+            grid-template-columns: 250px 250px;
+            grid-template-areas: "header header";
+            float: right;
+            margin: 5px;
+        }
+        .grid-items{
+            margin: 6px 0px;
+        }
+        .grid-items input{
+            width: 100%;
+            height: 50px;
+            direction: rtl;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 3px 3px 5px black;
+            background-color: lightblue;
+        }
+        .grid-item-1{
+            grid-area: header;
+        }
+        .grid-item input{
+            direction: rtl;
+            border: none;
+            margin: 3px 4px;
+            font-size: 15px;
+            border-radius: 3px;
+            box-shadow: 3px 3px 5px black;
+            padding: 7px;
+            background-color: lightblue;
+        }
+    
+    
+    /* ============================================== */
+                 /* takeMark part CSS */
+    
+    
+        #top2{
+            margin: 15px 100px;
+            width: 32.5%;
+            height: fit-content;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+        }
+        .MarkNumber{
+            border: solid 2px black;
+            width: 180px;
+            height: 34px;
+            border-radius: 7px;
+            background-color: lightblue;
+        }
+        .number2{
+            float: right;
+            padding: 5px;
+            font-size: x-large;
+            height: 24px;
+        }
+        .button{
+            padding: 5px;
+            padding-left: 30px;
+        }
+        .button input{
+            text-align: center;
+            border: 2px solid black;
+            padding: 0px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            box-shadow: 3px 1px 3px black;
+        }
+        .button input:hover{
+            background-color: black;
+            color: white;
+        }
+    
